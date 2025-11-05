@@ -6,10 +6,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from a14xm device
-$(call inherit-product, device/samsung/a14m/device.mk)
+$(call inherit-product, device/samsung/a14/device.mk)
 
-PRODUCT_DEVICE := a14m
-PRODUCT_NAME := twrp_a14m
+PRODUCT_DEVICE := a14
+PRODUCT_NAME := twrp_a14
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Samsung Galaxy A14
 PRODUCT_MANUFACTURER := samsung
